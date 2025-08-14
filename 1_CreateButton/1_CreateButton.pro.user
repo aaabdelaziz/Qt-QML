@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 17.0.0, 2025-08-12T15:59:37. -->
+<!-- Written by QtCreator 17.0.0, 2025-08-12T21:38:41. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -164,12 +164,12 @@
      <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:</value>
-     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt-QML/untitled/untitled.pro</value>
+     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt/Qt-QML/1_CreateButton/1_CreateButton.pro</value>
      <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
      <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
      <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
      <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-     <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt-QML/untitled/build/Qt_6_10_0_for_macOS-Debug/untitled.app/Contents/MacOS</value>
+     <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt-QML/untitled/build/Qt_6_10_0_for_macOS-Debug/1_CreateButton.app/Contents/MacOS</value>
     </valuemap>
     <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
@@ -200,12 +200,12 @@
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt-QML/untitled/untitled.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt/Qt-QML/1_CreateButton/1_CreateButton.pro</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt-QML/untitled/build/Qt_6_10_0_for_macOS-Debug/untitled.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/ahmedabdelaziz/MyBrain/SW/Embedd_System/Qt-QML/untitled/build/Qt_6_10_0_for_macOS-Debug/1_CreateButton.app/Contents/MacOS</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
