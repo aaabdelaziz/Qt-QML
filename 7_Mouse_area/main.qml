@@ -44,7 +44,7 @@ Window {
             id: myMouse
             anchors.fill: parent
             acceptedButtons: Qt.LeftButton | Qt.RightButton //Check first if clicked either of R/L mouse buttons
-
+            hoverEnabled: true      // Allow to execute all below signals in any time you just hover the mouse
             onClicked: (mouse)=> {  // then do logic based on which button clicked
                            console.log("CLicked: " + mouse.button)
                            if (mouse.button == Qt.RightButton)  parent.color = 'blue';
