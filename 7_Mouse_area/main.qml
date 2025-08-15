@@ -35,21 +35,25 @@ Window {
         }
     }
 
-    // Rectangle {
-    //     width: 400; height: 400
-    //     x: 300
-    //     y: 300
+    Rectangle {
+        width: 200; height: 200
+        color: "grey"
+        anchors.centerIn: parent
 
-    //     MouseArea {
-    //         id: mouseArea1
-    //         anchors.fill: parent
-    //         hoverEnabled: true
-    //     }
-    //     MouseArea {
-    //         id: mouseArea2
-    //         width: 100; height: 100
-    //         anchors.centerIn: parent
-    //         hoverEnabled: true
-    //     }
-    // }
+        MouseArea {
+            id: myMouse
+            anchors.fill: parent
+            acceptedButtons: Qt.LeftButton | Qt.RightButton //Check first if clicked either of R/L mouse buttons
+
+            onClicked: (mouse)=> {  // then do logic based on which button clicked
+                           console.log("CLicked: " + mouse.button)
+                           if (mouse.button == Qt.RightButton)  parent.color = 'blue';
+                           if (mouse.button == Qt.LeftButton)   parent.color = 'red';
+                       }
+
+            onDoubleClicked: console.log("Double clicked: " + mouse.button)
+            onPositionChanged: console.log("Position X:" + mouseX + "& Y: " + mouseY)
+
+        }
+    }
 }
