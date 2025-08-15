@@ -54,6 +54,8 @@ Window {
             onDoubleClicked: console.log("Double clicked: " + mouse.button)
             onPositionChanged: console.log("Position X:" + mouseX + "& Y: " + mouseY)
 
+            onEntered: parent.color = "magenta"
+            onExited: parent.color  = "black"
         }
     }
 }
