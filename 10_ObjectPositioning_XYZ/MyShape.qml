@@ -12,7 +12,7 @@ Rectangle {
         id: dragArea
         anchors.fill: parent
         drag.target: myShape
-        onClicked: parent.z++
+        onClicked: parent.z++   // If the shape is clicked it will be with higher z axes, become on top of other shapes
 
         // Update label while dragging
         onPositionChanged: {
