@@ -1,0 +1,33 @@
+import QtQuick 2.15
+import QtQuick.Window 2.15
+
+Window {
+    width: 640
+    height: 480
+    visible: true
+    title: qsTr("Hello World")
+
+
+    property var midX: width/2
+    property var midY: height/2
+
+    MyShape{
+        color: "blue"
+        x: midX - (width/2)
+        y: midY - (height/2) - 40
+    }
+
+    MyShape{
+        color: "red"
+        x: midX - (width/2) - 55
+        y: midY - (height/2) + 30
+
+    }
+
+    MyShape{
+        color: "orange"
+        x: midX - (width/2) + 55
+        y: midY - (height/2) + 30
+    }
+
+}
