@@ -8,26 +8,46 @@ Window {
     title: qsTr("Hello World")
 
 
-    property var midX: width/2
-    property var midY: height/2
+    // property var midX: width/2
+    // property var midY: height/2
 
-    MyShape{
-        color: "blue"
-        x: midX - (width/2)
-        y: midY - (height/2) - 40
+    // MyShape{
+    //     color: "blue"
+    //     x: midX - (width/2)
+    //     y: midY - (height/2) - 40
+    // }
+
+    // MyShape{
+    //     color: "red"
+    //     x: midX - (width/2) - 55
+    //     y: midY - (height/2) + 30
+
+    // }
+
+    // MyShape{
+    //     color: "orange"
+    //     x: midX - (width/2) + 55
+    //     y: midY - (height/2) + 30
+    // }
+
+    // Create Column of Shapes
+    Column
+    {
+        anchors.left: parent
+        spacing: 5
+        MyShape{color: "blue"}
+        MyShape{color: "green"}
+        MyShape{color: "red"}
     }
 
-    MyShape{
-        color: "red"
-        x: midX - (width/2) - 55
-        y: midY - (height/2) + 30
-
-    }
-
-    MyShape{
-        color: "orange"
-        x: midX - (width/2) + 55
-        y: midY - (height/2) + 30
+    // Create Rows of Shapes
+    Row
+    {
+        anchors.right: parent
+        spacing: 5
+        MyShape{color: "blue"}
+        MyShape{color: "green"}
+        MyShape{color: "red"}
     }
 
 }
