@@ -30,24 +30,44 @@ Window {
     //     y: midY - (height/2) + 30
     // }
 
-    // Create Column of Shapes
-    Column
+    // // Create Column of Shapes
+    // Column
+    // {
+    //     anchors.left: parent
+    //     spacing: 5
+    //     MyShape{color: "blue"}
+    //     MyShape{color: "green"}
+    //     MyShape{color: "red"}
+    // }
+
+    // // Create Rows of Shapes
+    // Row
+    // {
+    //     anchors.right: parent
+    //     spacing: 5
+    //     MyShape{color: "blue"}
+    //     MyShape{color: "green"}
+    //     MyShape{color: "red"}
+    // }
+
+
+    // Create Gride of Shapes
+    Grid
     {
-        anchors.left: parent
+        anchors.centerIn: parent
         spacing: 5
+        rows: 3
+        columns: 2
+
         MyShape{color: "blue"}
-        MyShape{color: "green"}
+        MyShape{color: "yellow"}
         MyShape{color: "red"}
+        MyShape{color: "blue"}
+        MyShape{color: "orange"}
+        MyShape{color: "black"}
+        MyShape{color: "grey"}
+
     }
 
-    // Create Rows of Shapes
-    Row
-    {
-        anchors.right: parent
-        spacing: 5
-        MyShape{color: "blue"}
-        MyShape{color: "green"}
-        MyShape{color: "red"}
-    }
 
 }
