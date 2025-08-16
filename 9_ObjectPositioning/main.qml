@@ -19,7 +19,7 @@ Window {
         Text {
             id: positionLabel
             anchors.centerIn: parent
-            text: "x: " + Math.round(myShape.x) + " y: " + Math.round(myShape.y)
+            text: Math.round(myShape.x) + " x " + Math.round(myShape.y)
         }
 
         // Make it draggable
@@ -30,7 +30,7 @@ Window {
 
             // Update label while dragging
             onPositionChanged: {
-                positionLabel.text = "x: " + Math.round(myShape.x) + " y: " + Math.round(myShape.y)
+                positionLabel.text = Math.round(myShape.x) + " x " + Math.round(myShape.y)
             }
         }
     }
