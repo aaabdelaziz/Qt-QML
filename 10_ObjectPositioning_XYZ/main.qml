@@ -59,12 +59,12 @@ Window {
         rows: 3
         columns: 2
 
-        MyShape{color: "blue"}
+        MyShape{color: "blue"; radius: 10}
         MyShape{color: "yellow"}
         MyShape{color: "red"}
-        MyShape{color: "blue"}
-        MyShape{color: "orange"}
-        MyShape{color: "black"}
+        MyShape{color: "blue"; radius: 40}
+        MyShape{color: "orange"; radius: 10}
+        MyShape{color: "black"; radius: 60}
         MyShape{color: "grey"}
 
     }
