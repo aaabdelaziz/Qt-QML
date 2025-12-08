@@ -15,16 +15,19 @@ Window {
     Rectangle{
         color: "pink"
         id: myshap
-        anchors.fill: parent // Use anchors.fill instead of fixed width/height for better resizing
+        anchors.centerIn: parent // Use anchors.fill instead of fixed width/height for better resizing
+        width: 500
+        height: 400
+
         clip: false // Play with this: true cuts off children outside this Rectangle's bounds
 
         Flow {
             // Anchor the flow item in the center of the pink rectangle
             anchors.centerIn: parent
-            width: parent.width // Give it the full width to allow flow/wrapping
 
-            flow: Flow.LeftToRight // Items flow left-to-right, then wrap down
-            // flow: Flow.TopToBottom // Items flow top-to-bottom, then wrap right
+
+            flow: Flow.LeftToRight               // Items flow left-to-right, then wrap down
+            // flow: Flow.TopToBottom            // Items flow top-to-bottom, then wrap right
             spacing: 5
 
             // Components will be arranged by the Flow layout
