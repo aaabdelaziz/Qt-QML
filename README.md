@@ -44,12 +44,9 @@ To avoid common resource-path issues, and to be able to run my examples or creat
 
 ### 2. Adding Custom Components
 
-When adding a new QML file (for example, `MyShape.qml`):
-
-- Use **PascalCase** filenames, e.g. `MyShape.qml`.
-- Ensure the file is:
-  - Added to your **resource file** (`.qrc`), **or**
-  - Placed in a directory that your C++ engine explicitly loads as an import path.
+When adding a new QML file (for example, `MyShape.qml`)
+Follow these steps:
+![Application Screenshot](images/AddQMLFile.jpg)
 
 ---
 
