@@ -16,7 +16,7 @@ Window {
             width: 50
             height:50
             color: "blue"
-            anchors.rightMargin: parent
+            anchors.right: parent
 
             // To allow the drag of blue rectangle with the full shape
             MouseArea {
@@ -31,16 +31,27 @@ Window {
     }
 
 
-    // Second Shape in Green
-    MyShape {
-        id: shareRight
-        anchors.rightMargin: parent
-        width: 100
-        height:100
+    // // Second Shape in Green
+    // MyShape {
+    //     id: shareRight
 
+    //     text: "30 Kg!! "  // This is the root text
+    //     anchors.left: shareLeft.right  // Anchor the left of the green Rect to the right of the Red Rect
+
+    //     color: "green"
+
+    // }
+
+    // Third Shape in pink
+    MyShape {
+        id: shareBottom
         text: "30 Kg!! "  // This is the root text
-        anchors.left: shareLeft.right  // Anchor the left of the green Rect to the right of the Red Rect
-        color: "green"
+        color: "pink"
+        width: 100
+        height: 100
+        anchors.top: shareLeft.bottom
+        anchors.right: shareLeft.left
+
 
     }
 }

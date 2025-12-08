@@ -5,8 +5,8 @@ Item {
     id: root
     property color color: "red"               // Define global item property as color
     property string text: "Shape Title:"      // Define global item property as string
-    width: 200
-    height: 200
+    width: 150
+    height: 150
 
     Rectangle {
         color: root.color
